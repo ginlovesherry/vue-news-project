@@ -17,7 +17,6 @@
 	import Home from './components/Home.vue'
 
 	import {mapGetters} from 'vuex'
-
 	export default{
 		computed:mapGetters([
 			'headShow',
