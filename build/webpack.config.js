@@ -64,7 +64,7 @@ config.plugins.push(
         id: 'happycss',
         loaders: ['css-loader?importLoaders=1', 'postcss-loader'], //打包
         threadPool: happyThreadPool,
-        cache: true,
+        // cache: true,
         verbose: true
     }),
     new webpack.DefinePlugin({

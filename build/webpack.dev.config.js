@@ -46,7 +46,7 @@ config.plugins.push(
         id: 'happycss',
         loaders: ['vue-style-loader', 'css-loader?importLoaders=1&minimize', 'postcss-loader'], //非打包
         threadPool: happyThreadPool,
-        cache: true,
+        // cache: true,
         verbose: true
     })
 );
