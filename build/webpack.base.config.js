@@ -51,9 +51,6 @@ module.exports = {//暴露一个对象出去，webpack去读
             threadPool: happyThreadPool,
             // cache: true,
             verbose: true
-
-
-            
         }),
         new CleanWebpackPlugin(['./dist'], {
             root: path.resolve(__dirname, '..')
