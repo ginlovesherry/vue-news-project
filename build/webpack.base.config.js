@@ -49,8 +49,11 @@ module.exports = {//暴露一个对象出去，webpack去读
             id: 'happybabel',
             loaders: ['babel-loader?cacheDirectory'],
             threadPool: happyThreadPool,
-            cache: true,
+            // cache: true,
             verbose: true
+
+
+            
         }),
         new CleanWebpackPlugin(['./dist'], {
             root: path.resolve(__dirname, '..')
